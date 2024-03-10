@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.move{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move span{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+}
+
+.move span:nth-child(1){
+    top: 20%;
+    left: 20%;
+    z-index: 3;
+}
+.move span:nth-child(2){
+    top: 60%;
+    left: 40%;
+    z-index: 3;
+}
+.move span:nth-child(3){
+    top: 80%;
+    left: 30%;
+    z-index: 3;
+}
+.move span:nth-child(4){
+    top: 10%;
+    right: 40%;
+    z-index: 3;
+}
+.move span:nth-child(5){
+    top: 75%;
+    right: 20%;
+    z-index: 3;
+}
+.move span:nth-child(6){
+    top: 20%;
+    right: 20%;
+    z-index: 3;
+}
